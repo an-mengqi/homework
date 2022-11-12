@@ -1,4 +1,4 @@
-import configuration as conf
+from hw3_file_parsing import configuration as conf
 import json
 
 from csv import DictReader
