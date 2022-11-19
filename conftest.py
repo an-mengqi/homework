@@ -17,3 +17,9 @@ def service1_dog_ceo_url():
 def service2_brewery_url():
     brewery_url = "https://api.openbrewerydb.org/breweries"
     return brewery_url
+
+
+@pytest.fixture()
+def service3_jsonplaceholder_url():
+    jsonplaceholder_url = "https://jsonplaceholder.typicode.com/"
+    return jsonplaceholder_url
